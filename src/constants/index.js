@@ -11,14 +11,14 @@ export const EXPERIENCES = [{
     role: "Research and Development Specialist",
     company: "Dassault Systemes",
     description: `Led a team in developing and maintaining an application within the 3DS cloud infrastructure for managing real -world locations by creating their virtual counterparts. Enabled the creation of virtual twins of physical locations, facilitating operations in various 3D tools for area measurements, object placement simulations, and other 3D functionalities. `,
-    technologies: ["React", "Javascript", "HTML", "CSS", "REST APIs", "NodeJS", "MongoDB"],
+    technologies: ["React", "Javascript", "HTML", "CSS", "REST APIs"],
   },
   {
     year: "2019 - 2021",
     role: "System Engineer",
     company: "Tata Consultancy Services",
     description: `Played a key role in the transformation of the admin website post-merger of BB&T and SunTrust to form Truist, using React to modernize and enhance functionality. Worked closely with backend developers to integrate frontend components with REST APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["React", "Javascript", "HTML", "CSS", "Tailwind CSS", "REST APIs"],
+    technologies: ["React", "Javascript", "HTML", "CSS", "Tailwind CSS", "REST APIs", "NodeJS", "MongoDB"],
   },
 ];
 
