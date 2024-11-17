@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index";
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/VishwarajProfile.jpeg";
 import { motion } from "framer-motion";
 
 function Hero() {
