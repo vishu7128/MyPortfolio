@@ -50,7 +50,7 @@ export const PROJECTS = [
   // },
   {
     title: "VShop - Shopping Website",
-    image: project1,
+    image: project3,
     description: "A fully functional e-commerce website with features like product listing, shopping cart, payment option and user authentication.",
     technologies: ["HTML", "CSS", "React", "Redux", "Node.js", "MongoDB", "Paypal API"],
     link: "https://v-shop-wine.vercel.app/",
@@ -58,7 +58,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project1,
     description: "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Javascript", "React", "Tailwind CSS", "Framer Motion"],
     link: "https://my-portfolio-beta-ten-22.vercel.app/",
