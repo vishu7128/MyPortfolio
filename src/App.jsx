@@ -18,8 +18,8 @@ function App() {
         <Navbar />
         <Hero />
         <Technologies />
-        <Projects />
         <Experiences />
+        <Projects />
         <Contact />
       </div>
     </div>

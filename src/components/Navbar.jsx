@@ -1,6 +1,6 @@
 import logo from "../assets/VY_Logo.png";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+// import { FaXTwitter } from "react-icons/fa6";
 function Navbar() {
   return (
     <nav className="flex items-center justify-between py-6">
@@ -18,20 +18,25 @@ function Navbar() {
         >
           <FaLinkedin />
         </a>
-        <a href="" target="_blank" rel="noopener norefere" aria-label="GitHub">
+        <a
+          href="https://github.com/vishu7128"
+          target="_blank"
+          rel="noopener norefere"
+          aria-label="GitHub"
+        >
           <FaGithub />
         </a>
-        <a
+        {/* <a
           href=""
           target="_blank"
           rel="noopener norefere"
           aria-label="Instagram"
         >
           <FaInstagram />
-        </a>
-        <a href="" target="_blank" rel="noopener norefere" aria-label="X">
+        </a> */}
+        {/* <a href="" target="_blank" rel="noopener norefere" aria-label="X">
           <FaXTwitter />
-        </a>
+        </a> */}
       </div>
     </nav>
   );

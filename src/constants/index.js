@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+// import project2 from "../assets/projects/project-2.webp";
+import project1 from "../assets/projects/VY_Logo.png";
+import project3 from "../assets/projects/VShop_Logo_WhiteFont.png";
 
 export const HERO_CONTENT = `I am a passionate front end developer with a knack for crafting robust and scalable web applications. With 5+ years of hands-on experience, I have honed my skills in front-end technologies like React, Redux, Javascript, HTML, CSS and CSS Frameworks like Bootstrap and Tailwind. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -22,28 +22,52 @@ export const EXPERIENCES = [{
   },
 ];
 
-export const PROJECTS = [{
-    title: "E-Commerce Website",
-    image: project1,
-    description: "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
+// export const PROJECTS = [{
+//     title: "E-Commerce Website",
+//     image: project1,
+//     description: "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+//   },
+//   {
+//     title: "Tournament Management App",
+//     image: project2,
+//     description: "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+//   },
+//   {
+//     title: "Portfolio Website",
+//     image: project3,
+//     description: "A personal portfolio website showcasing projects, skills, and contact information.",
+//     technologies: ["HTML", "CSS", "Javascript", "React", "Tailwind CSS", "Framer Motion"],
+//   },
+// ];
+export const PROJECTS = [
+  // {
+  //   title: "Tournament Management App",
+  //   image: project2,
+  //   description: "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
+  // },
   {
-    title: "Tournament Management App",
-    image: project2,
-    description: "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    title: "VShop - Shopping Website",
+    image: project1,
+    description: "A fully functional e-commerce website with features like product listing, shopping cart, payment option and user authentication.",
+    technologies: ["HTML", "CSS", "React", "Redux", "Node.js", "MongoDB", "Paypal API"],
+    link: "https://v-shop-wine.vercel.app/",
+    github: "https://github.com/vishu7128/VShop",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description: "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Javascript", "React", "Tailwind CSS", "Framer Motion"],
+    link: "https://my-portfolio-beta-ten-22.vercel.app/",
+    github: "https://github.com/vishu7128/MyPortfolio",
   },
 ];
 
 export const CONTACT = {
-  address: "Hinjewadi, Pune, Maharashtra 411057 ",
+  address: "Pune, Maharashtra",
   phoneNo: "+91-8349645492",
   email: "vishu7128@gmail.com",
 };

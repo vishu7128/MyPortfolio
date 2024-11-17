@@ -8,7 +8,7 @@ function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-2 text-center text-4xl"
+        className="mt-10 text-center text-4xl"
       >
         Get in touch
       </motion.h2>
@@ -25,13 +25,11 @@ function Contact() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className="my-4"
+          className=""
         >
-          {CONTACT.phoneNo}
+          {CONTACT.phoneNo}, {CONTACT.email}
         </motion.p>
-        <a href="#" className="border-b">
-          {CONTACT.email}
-        </a>
+        {/* <a href="#" className="border-b"></a> */}
       </div>
     </div>
   );
